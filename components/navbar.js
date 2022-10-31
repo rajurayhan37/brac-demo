@@ -6,7 +6,9 @@ function Navbar() {
         <div className="mx-auto mb-[130px] backdrop-blur-2xl shadow-md z-[100] fixed w-full ">
             <div className="px-12 py-4 flex justify-between">
                 <div>
-                    <img src="./brac-logo.png"/>
+                    <Link href={'/'}>
+                        <img src="./brac-logo.png"/>
+                    </Link>
                 </div>
                 <ul className="flex gap-4 py-4">
                     <li className="text-md text-gray-800">
