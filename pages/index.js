@@ -124,49 +124,6 @@ export default function Home() {
                           
                       </tr>
                   </thead>
-<<<<<<< HEAD
-=======
-                  <tbody>
-                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                              Apple MacBook Pro 17
-                          </th>
-                          <td class="py-4 px-6">
-                              Sliver
-                          </td>
-                          <td class="py-4 px-6">
-                              Laptop
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                          <td class="py-4 px-6">
-                              $2999
-                          </td>
-                      </tr>
->>>>>>> 502b08c68dd7bdd70b277426bf1e77207504f861
-
                   <tbody>
                     {students.map((student) => (
                         <tr key={student.id} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
